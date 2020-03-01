@@ -1,0 +1,134 @@
+English,Svenska
+Player Name,Player Name
+THERE ARE NOT ROOMS CREATED YET; CREATE ONE TO PLAY.,THERE ARE NOT ROOMS CREATED YET; CREATE ONE TO PLAY.
+Team Death Match,Team Death Match
+Free For All,Free For All
+Capture The Flag,Capture The Flag
+player,player
+Search And Destroy,Search And Destroy
+Cover Point,Cover Point
+Gun Race,Gun Race
+Last Man Standing,Last Man Standing
+Pick up medical kit,Pick up medical kit
+Pick up Ammo,Pick up Ammo
+Press [E] for pick up <color=#70ABFF>{0}</color>,Press [E] for pick up <color=#70ABFF>{0}</color>
+<color=#70ABFF>{0}</color> is already equipped.,<color=#70ABFF>{0}</color> is already equipped.
+WINNING:\n<size=14><color=black>{0}</color></size>,WINNING:\n<size=14><color=black>{0}</color></size>
+Killed,Killed
+HeadShot,HeadShot
+Joined in the match,Joined in the match
+Left of match,Left of match
+Has committed suicide,Has committed suicide
+Death by Fall,Death by Fall
+Killed Enemy,Killed Enemy
+HeadShot Bonus,HeadShot Bonus
+Join in,Join in
+PLAYER WINNING:\n<size=10><color=black>{0} | {1}/{2}</color></size>,PLAYER WINNING:\n<size=10><color=black>{0} | {1}/{2}</color></size>
+No Limit,No Limit
+Spectating,Spectating
+KILLED IN ACTION,KILLED IN ACTION
+[Server],[Server]
+[Server]: Press 'T' or 'Y' for open chat box,[Server]: Press 'T' or 'Y' for open chat box
+No One,No One
+You are AFK; you will be kicked in: {0},You are AFK; you will be kicked in: {0}
+Return to Lobby in,Return to Lobby in
+Next Round in,Next Round in
+Won this round!,Won this round!
+Total Score,Total Score
+<b>{0}</b> SPECTATORS,<b>{0}</b> SPECTATORS
+WAITING FOR PLAYERS <b>{0} OF {1}</b>,WAITING FOR PLAYERS <b>{0} OF {1}</b>
+RESPAWN IN: {0},RESPAWN IN: {0}
+LOADING GAME CONTENT...,LOADING GAME CONTENT...
+CONNECTING TO PSN3 SERVERS...,CONNECTING TO PSN3 SERVERS...
+<size=25><b>OPPS!</b></size>\nCOULD NOT CONNECT TO THE SERVER.\nCAUSE: {0},<size=25><b>OPPS!</b></size>\nCOULD NOT CONNECT TO THE SERVER.\nCAUSE: {0}
+Has capture Flag,Has capture Flag
+Obtained the {0} flag,Obtained the {0} flag
+COVER POINT IN: <b>{0}</b>,COVER POINT IN: <b>{0}</b>
+AUTO,AUTO
+SINGLE,SINGLE
+SEMI,SEMI
+<b>ROOMS CREATED:</b> {0},<b>ROOMS CREATED:</b> {0}
+<b>PLAYERS ONLINE:</b> {0},<b>PLAYERS ONLINE:</b> {0}
+<b>PLAYERS PLAYING:</b> {0},<b>PLAYERS PLAYING:</b> {0}
+<b>PLAYERS IN LOBBY:</b> {0},<b>PLAYERS IN LOBBY:</b> {0}
+{0} HAS BEEN KICKED!,{0} HAS BEEN KICKED!
+{0} HAS NOT BEEN KICKED!,{0} HAS NOT BEEN KICKED!
+VOTE BY: {0},VOTE BY: {0}
+KICK '{0}'?,KICK '{0}'?
+YOU VOTE {0},YOU VOTE {0}
+Kill,Kill
+Death,Death
+Score,Score
+Time Played,Time Played
+Win Match: +{0},Win Match: +{0}
+Continue,Continue
+Play,Play
+SEARCH,SEARCH
+CREATE SERVER,CREATE SERVER
+Please write the secret key of this account,Please write the secret key of this account
+Cancel,Cancel
+SERVER NAME,SERVER NAME
+MAP,MAP
+MODE,MODE
+GOAL,GOAL
+MAX PING,MAX PING
+STATE,STATE
+Host Room:,Host Room:
+Max Players: ,Max Players: 
+Round Time,Round Time
+Game Mode,Game Mode
+Rounds:,Rounds:
+Max Kills,Max Kills
+Game Per Round,Game Per Round
+Auto Team Selection,Auto Team Selection
+Friendly Fire,Friendly Fire
+With Bots,With Bots
+CREATE,CREATE
+Volume,Volume
+Sensitivity,Sensitivity
+Aim Sensitivity,Aim Sensitivity
+WEAPON FOV,WEAPON FOV
+SHOW FRAME RATE,SHOW FRAME RATE
+INVERT MOUSE VERTICAL,INVERT MOUSE VERTICAL
+INVERT MOUSE HORIZONTAL,INVERT MOUSE HORIZONTAL
+MUTE VOICE CHAT,MUTE VOICE CHAT
+PUSH TO TALK,PUSH TO TALK
+SAVE,SAVE
+RESET,RESET
+BACKGROUND VOLUME,BACKGROUND VOLUME
+CHROMATIC ABERRATION,CHROMATIC ABERRATION
+ANTIALIASING,ANTIALIASING
+BLOOM,BLOOM
+MOTION BLUR,MOTION BLUR
+Enable,Enable
+Disable,Disable
+Force Enable,Force Enable
+Quality,Quality
+ANISOTROPIC FILTERING,ANISOTROPIC FILTERING
+Minute,Minute
+Offline,Offline
+Online,Online
+Ping,Ping
+Yes,Yes
+No,No
+Are you sure you want to exit game?,Are you sure you want to exit game?
+Friend,Friend
+Resume,Resume
+Scoreboard,Scoreboard
+Settings,Settings
+Change Team,Change Team
+Join,Join
+Team Name,Team Name
+Suicide,Suicide
+Leave Room,Leave Room
+Spectator,Spectator
+Send,Send
+Game Resume,Game Resume
+Selecting team to balance game...,Selecting team to balance game...
+Kills,Kills
+SPAWN PROTECTION DISABLING IN: <b>{0}</b>,SPAWN PROTECTION DISABLING IN: <b>{0}</b>
+Waiting for balance team players,Waiting for balance team players
+KILLED BY: ,KILLED BY: 
+Joining...,Joining...
+Leaving Match...,Leaving Match...
+Your Ping is high!,Your Ping is high!

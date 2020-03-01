@@ -1,0 +1,444 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b33f0ff16976a942b2873cb5a7b974f, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  UseLobbyChat: 1
+  UseVoiceChat: 1
+  BulletTracer: 1
+  DropGunOnDeath: 1
+  SelfGrenadeDamage: 1
+  CanFireWhileRunning: 1
+  HealthRegeneration: 1
+  ShowTeamMateHealthBar: 1
+  CanChangeTeam: 1
+  KillCamFollowEnemys: 1
+  ShowBlood: 1
+  DetectAFK: 1
+  MasterCanKickPlayers: 1
+  ArriveKitsCauseDamage: 1
+  CalculateNetworkFootSteps: 1
+  Lock60FPS: 1
+  ShowNetworkStats: 0
+  RememberPlayerName: 1
+  ShowWeaponLoadout: 1
+  LockWeaponsByLevel: 1
+  AmmoType: 1
+  ScoreReward:
+    ScorePerKill: 100
+    ScorePerHeadShot: 25
+    ScoreForWinMatch: 500
+    ScorePerTimePlayed: 3
+  VirtualCoins:
+    InitialCoins: 1000
+    CoinScoreValue: 100
+  GameVersion: 1.0
+  AFKTimeLimit: 100000
+  PlayerRespawnTime: 6
+  MaxChangeTeamTimes: 3
+  MainMenuScene: MainMenu
+  OnDisconnectScene: MainMenu
+  AllScenes:
+  - ShowName: Flood
+    m_Scene: {fileID: 102900000, guid: ab3ce3cfc27eb9b4ca66e255db3711cd, type: 3}
+    RealSceneName: Flood
+    Preview: {fileID: 21300000, guid: c0c0e0f1bc960aa4bbddc22e307f35fa, type: 3}
+  - ShowName: Urban
+    m_Scene: {fileID: 102900000, guid: 6dc04869a037d1948b1072a8c2d80e85, type: 3}
+    RealSceneName: Urban
+    Preview: {fileID: 21300000, guid: ca99ae59eafd5d045a7534578bd105a3, type: 3}
+  - ShowName: Hangar
+    m_Scene: {fileID: 102900000, guid: 9804f05d9a6a3d645b43295befaa7411, type: 3}
+    RealSceneName: Hangar
+    Preview: {fileID: 21300000, guid: c5cee3cac15344f46868adf64806f66a, type: 3}
+  - ShowName: Temple
+    m_Scene: {fileID: 102900000, guid: 084b84aceda015f4f856fa44a8edf5e5, type: 3}
+    RealSceneName: Temple
+    Preview: {fileID: 21300000, guid: d85159afff668844daee4156c09a254d, type: 3}
+  AllWeapons:
+  - Name: MP-5
+    Type: 1
+    Damage: 15
+    FireRate: 0.09
+    ReloadTime: 2.5
+    Range: 300
+    Accuracy: 1
+    Weight: 2
+    Price: 0
+    LevelUnlock: 0
+    PickUpPrefab: {fileID: 114276421530720698, guid: 24d483153274cb044b6356f4faf914ee,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: b770103d6ad72c345b690122e2789775, type: 3}
+  - Name: Glock 88
+    Type: 1
+    Damage: 15
+    FireRate: 0.12
+    ReloadTime: 2
+    Range: 200
+    Accuracy: 3
+    Weight: 2
+    Price: 0
+    LevelUnlock: 0
+    PickUpPrefab: {fileID: 114377898252377658, guid: 9b70bddae83a2624c8b2647cc2bb2bde,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 67817f6c38715a64a8074a1940d6b966, type: 3}
+  - Name: M1200
+    Type: 0
+    Damage: 50
+    FireRate: 1.25
+    ReloadTime: 6
+    Range: 125
+    Accuracy: 1
+    Weight: 2
+    Price: 0
+    LevelUnlock: 0
+    PickUpPrefab: {fileID: 114903181447801438, guid: 0148ce739c367f5499c6a9e5dea9d23a,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: f46bf914a29644c46a4d817ec77246cb, type: 3}
+  - Name: M28 Frag
+    Type: 5
+    Damage: 100
+    FireRate: 1
+    ReloadTime: 1
+    Range: 300
+    Accuracy: 0
+    Weight: 2
+    Price: 0
+    LevelUnlock: 0
+    PickUpPrefab: {fileID: 114503052674967646, guid: c9fa96b788fed1e49b45acc2aedb0823,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 5888e24ba146f2141b5c01400fd2c24c, type: 3}
+  - Name: Karatov 45
+    Type: 2
+    Damage: 90
+    FireRate: 1.8
+    ReloadTime: 3
+    Range: 300
+    Accuracy: 5
+    Weight: 3
+    Price: 0
+    LevelUnlock: 0
+    PickUpPrefab: {fileID: 114458066640939220, guid: b5e79ed4cf51fa84a9ced1a35c59c9b9,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 8fc34eb714f6fa64f928bbad3049b5d8, type: 3}
+  - Name: Brawning Knife
+    Type: 6
+    Damage: 60
+    FireRate: 0.6
+    ReloadTime: 0.5
+    Range: 2
+    Accuracy: 0
+    Weight: 2
+    Price: 0
+    LevelUnlock: 0
+    PickUpPrefab: {fileID: 114908929425986968, guid: ccd5832d51ac4b044946fef0edec51ce,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 38349530c3a41fd4a8ecc2df82a57e3a, type: 3}
+  - Name: Molotov
+    Type: 5
+    Damage: 20
+    FireRate: 1
+    ReloadTime: 1.2
+    Range: 300
+    Accuracy: 0
+    Weight: 2
+    Price: 0
+    LevelUnlock: 0
+    PickUpPrefab: {fileID: 114685265083659480, guid: d537af36ed22be84faa601876ab96857,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 2fd72e2aa4d7cc14f993fa22e6f2ff19, type: 3}
+  - Name: ITA-65
+    Type: 1
+    Damage: 25
+    FireRate: 0.18
+    ReloadTime: 3
+    Range: 350
+    Accuracy: 1
+    Weight: 3
+    Price: 0
+    LevelUnlock: 0
+    PickUpPrefab: {fileID: 114276421530720698, guid: fb922e8efe5d2cb46adad9dcb5cf2c8d,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 6693314b9d52a1d49bacbba44c293457, type: 3}
+  - Name: AK-47
+    Type: 1
+    Damage: 20
+    FireRate: 0.11
+    ReloadTime: 4
+    Range: 350
+    Accuracy: 1
+    Weight: 3
+    Price: 0
+    LevelUnlock: 0
+    PickUpPrefab: {fileID: 5783661770952257197, guid: efdeea8534484a642ac18350d302aae9,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 122dfe310a0a435408da6070e4f1db94, type: 3}
+  - Name: Skorpion
+    Type: 3
+    Damage: 15
+    FireRate: 0.08
+    ReloadTime: 2
+    Range: 255
+    Accuracy: 2
+    Weight: 2
+    Price: 0
+    LevelUnlock: 0
+    PickUpPrefab: {fileID: 9191055359999632163, guid: 8e0ec99664aefb544b64f02c39dbfdd6,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 7de94018f290ad642a57fda772215d00, type: 3}
+  - Name: M4A1
+    Type: 1
+    Damage: 18
+    FireRate: 0.09
+    ReloadTime: 3
+    Range: 350
+    Accuracy: 1
+    Weight: 3
+    Price: 0
+    LevelUnlock: 0
+    PickUpPrefab: {fileID: 2329529966318010751, guid: 0a8e9b064d8d62140894d181d878a152,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 78122830ac543924487a466630ef8f81, type: 3}
+  - Name: UMP-45
+    Type: 1
+    Damage: 15
+    FireRate: 0.11
+    ReloadTime: 3
+    Range: 350
+    Accuracy: 1
+    Weight: 2.5
+    Price: 0
+    LevelUnlock: 0
+    PickUpPrefab: {fileID: 2652134612535912780, guid: 453bfede3e864754db8524539e088c04,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 821f87a1bda06fb47b668e3cc7af9647, type: 3}
+  - Name: AWP
+    Type: 2
+    Damage: 95
+    FireRate: 1.5
+    ReloadTime: 3
+    Range: 550
+    Accuracy: 1
+    Weight: 3
+    Price: 0
+    LevelUnlock: 0
+    PickUpPrefab: {fileID: 2343549901500896166, guid: 5740f07e30d130f408227ba6abc031b7,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: d91628931fe24d54bac343237d3d6d03, type: 3}
+  - Name: Skor-PEKR
+    Type: 3
+    Damage: 15
+    FireRate: 0.08
+    ReloadTime: 2
+    Range: 350
+    Accuracy: 2
+    Weight: 2.5
+    Price: 0
+    LevelUnlock: 0
+    PickUpPrefab: {fileID: 6669280700291725637, guid: 4db0cd1f47f21804d94e8c4712b4c598,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: fc69d7cbd31e23c41bc307c83b48bf18, type: 3}
+  - Name: M1911
+    Type: 3
+    Damage: 20
+    FireRate: 0.14
+    ReloadTime: 2
+    Range: 200
+    Accuracy: 3
+    Weight: 2
+    Price: 0
+    LevelUnlock: 0
+    PickUpPrefab: {fileID: 1315600882574026816, guid: be57309ce29498742bf18dbabbb506e2,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 5148758c65a420844abd4741f6bd99c2, type: 3}
+  - Name: ACP-45
+    Type: 3
+    Damage: 18
+    FireRate: 0.12
+    ReloadTime: 2
+    Range: 220
+    Accuracy: 3
+    Weight: 2
+    Price: 0
+    LevelUnlock: 0
+    PickUpPrefab: {fileID: 1315600882574026816, guid: be57309ce29498742bf18dbabbb506e2,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: c39d003e49cc6294a903439329b7d32b, type: 3}
+  - Name: 870-MCS
+    Type: 0
+    Damage: 50
+    FireRate: 1.25
+    ReloadTime: 6
+    Range: 150
+    Accuracy: 1
+    Weight: 2
+    Price: 0
+    LevelUnlock: 0
+    PickUpPrefab: {fileID: 4948947747909067859, guid: e282b7d2c8f748047923bdfbd8c079e0,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 572644f04ea71cc4ab56e0cadb356db3, type: 3}
+  - Name: M110-ASR
+    Type: 1
+    Damage: 35
+    FireRate: 0.14
+    ReloadTime: 4
+    Range: 500
+    Accuracy: 3
+    Weight: 3
+    Price: 0
+    LevelUnlock: 0
+    PickUpPrefab: {fileID: 4822148559258881228, guid: 62ed691de1fadcc4da3e01b01867d612,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 48bca01b0a9c2ba4d83ecffb65ed22ab, type: 3}
+  - Name: KA-BAR
+    Type: 6
+    Damage: 80
+    FireRate: 0.5
+    ReloadTime: 0.5
+    Range: 4
+    Accuracy: 0
+    Weight: 2
+    Price: 0
+    LevelUnlock: 0
+    PickUpPrefab: {fileID: 5732141326324760267, guid: 5d90e9e7a401359419f89ea902d62b56,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: f312581014986de4786ff883a5d00cf5, type: 3}
+  - Name: Semtex
+    Type: 5
+    Damage: 80
+    FireRate: 1
+    ReloadTime: 1
+    Range: 80
+    Accuracy: 0
+    Weight: 2
+    Price: 0
+    LevelUnlock: 0
+    PickUpPrefab: {fileID: 8529464555120434809, guid: 097c1dc9d4fa02549a693388ebb26610,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 6667059283574534792ceaab45c70ec2, type: 3}
+  - Name: Impact
+    Type: 5
+    Damage: 50
+    FireRate: 1
+    ReloadTime: 1
+    Range: 80
+    Accuracy: 0
+    Weight: 2
+    Price: 0
+    LevelUnlock: 0
+    PickUpPrefab: {fileID: 8336078613195753745, guid: 01fb447ef0d01654f80c3061eb02df06,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 37d8974048ea91845a0be67f0ed788bb, type: 3}
+  - Name: FireBomb
+    Type: 5
+    Damage: 40
+    FireRate: 1
+    ReloadTime: 1
+    Range: 80
+    Accuracy: 0
+    Weight: 2
+    Price: 0
+    LevelUnlock: 0
+    PickUpPrefab: {fileID: 1552771888537747221, guid: 8715e8a44560a624693078fdffb61acd,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 3738d1821b8ff8e43b1210c4d757fa32, type: 3}
+  - Name: Vector-K
+    Type: 1
+    Damage: 14
+    FireRate: 0.07
+    ReloadTime: 3
+    Range: 300
+    Accuracy: 1
+    Weight: 2.5
+    Price: 0
+    LevelUnlock: 0
+    PickUpPrefab: {fileID: 7582628285953259940, guid: 6c91b43cf164032499a3c1b84314360c,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 5b8ccafa6c0319845a53e991b57a9e6e, type: 3}
+  - Name: VEPR-12
+    Type: 0
+    Damage: 30
+    FireRate: 0.3
+    ReloadTime: 3
+    Range: 100
+    Accuracy: 1
+    Weight: 2
+    Price: 0
+    LevelUnlock: 0
+    PickUpPrefab: {fileID: 3372809800932260858, guid: f1d865471fa349c4db5e4a5725aeb721,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: bc1792a933b25aa47b81f5f6f509f699, type: 3}
+  - Name: Tomahawk
+    Type: 6
+    Damage: 95
+    FireRate: 0.8
+    ReloadTime: 0.5
+    Range: 6
+    Accuracy: 0
+    Weight: 2
+    Price: 0
+    LevelUnlock: 0
+    PickUpPrefab: {fileID: 7534115146843146404, guid: b2a4fda288632b145a43a48411b1a3be,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: a9b914be9382f904f82573503ec96d78, type: 3}
+  - Name: AK5C
+    Type: 1
+    Damage: 19
+    FireRate: 0.1
+    ReloadTime: 3
+    Range: 400
+    Accuracy: 1
+    Weight: 3
+    Price: 0
+    LevelUnlock: 0
+    PickUpPrefab: {fileID: 1600357387845386380, guid: fb6c320076082d6439f3c79ba5393665,
+      type: 3}
+    GunIcon: {fileID: 21300000, guid: 59bb8bdc763b4fe4fae422d3675316c5, type: 3}
+  DefaultSettings:
+    DefaultSensitivity: 2
+    DefaultSensitivityAim: 5
+    DefaultQualityLevel: 3
+    DefaultAnisoTropic: 2
+    DefaultVolume: 1
+    DefaultWeaponFoV: 60
+    DefaultShowFrameRate: 0
+    DefaultMotionBlur: 1
+  m_GameModesAvailables:
+  - ModeName: Team DeathMatch
+    m_GameMode: 0
+    isEnabled: 1
+  - ModeName: Free For All
+    m_GameMode: 1
+    isEnabled: 1
+  Team1Name: Orange
+  Team1Color: {r: 1, g: 0.7657233, b: 0.2971698, a: 1}
+  Team2Name: Blue
+  Team2Color: {r: 0.4764151, g: 0.5642423, b: 1, a: 1}
+  Player1: {fileID: 6733255199183277843, guid: 09e684f40f1e8964ea25bf0c1d42d28f, type: 3}
+  Player2: {fileID: 4858591117748413756, guid: 70edab62da89d9e48a5bd834112a3a5f, type: 3}
+  BotTeam1: {fileID: 2946631738259762362, guid: ded310b0d8c0a7e4ab5f1ffbceab7f83,
+    type: 3}
+  BotTeam2: {fileID: 3934041964007239630, guid: b97ace4524f0f70428027f74e68235f9,
+    type: 3}
+  GameTeam:
+  - UserName: SuperAdmin
+    m_Role: 0
+    Password: 123456
+    m_Color: {r: 1, g: 0, b: 0.1862073, a: 1}
+  CurrentTeamUser:
+    UserName: 
+    m_Role: 1
+    Password: 
+    m_Color: {r: 0, g: 0, b: 0, a: 0}
+  isChating: 0
+  _MFPSLicense: 
+  _MFPSFromStore: 0

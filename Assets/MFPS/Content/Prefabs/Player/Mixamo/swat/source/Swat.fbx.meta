@@ -1,0 +1,248 @@
+fileFormatVersion: 2
+guid: db73666fdce5fea4b9719832238282f0
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      74: -203655887218126122
+    second: mixamo.com
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Body_Diffuse
+    second: {fileID: 2800000, guid: 624daa543c54086409c405ac6aa2726c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Body_Gloss
+    second: {fileID: 2800000, guid: 74f97e9d3171d4244b02d3ea520a48eb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Body_Normal
+    second: {fileID: 2800000, guid: d2e6c66d1714dab4ba872bd0655c658d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Body_Opacity
+    second: {fileID: 2800000, guid: 646ddd5af52b4524ea9527d0d159e418, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Body_Specular
+    second: {fileID: 2800000, guid: 864ac3a99dd1e5445b9caba9517caa6a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Bottom_Diffuse
+    second: {fileID: 2800000, guid: 6bc937c5c0f19264d8600d0be05fa184, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Bottom_Gloss
+    second: {fileID: 2800000, guid: 751f7cbc99ac8e54891c0220a8fd5a55, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Bottom_Normal
+    second: {fileID: 2800000, guid: 1224a988535583f4a9e7a071418798ab, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Bottom_Opacity
+    second: {fileID: 2800000, guid: 913719a29b60c2f47840ecd7f59dcc29, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Bottom_Specular
+    second: {fileID: 2800000, guid: 55c0a77d816b4334893e637a01050fc3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Glove_Diffuse
+    second: {fileID: 2800000, guid: 8cd1845c68b0960449c683dbb3b6456f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Glove_Gloss
+    second: {fileID: 2800000, guid: 05b9100814dcd0544ac8c50ef25e8ac1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Glove_Normal
+    second: {fileID: 2800000, guid: fbe035b54073bc847bf675529438af3f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Glove_Opacity
+    second: {fileID: 2800000, guid: 2a3c48977c6cd8047a88c00f16095dcf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Glove_Specular
+    second: {fileID: 2800000, guid: 6b6720eb5e7732c4e8f64c8871d2fcad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Hat_Diffuse
+    second: {fileID: 2800000, guid: 0467cf4750bba0e4b8b4cc2d6e1b4c39, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Hat_Gloss
+    second: {fileID: 2800000, guid: 11f860833b3a3ba468b8d37409f8f77e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Hat_Normal
+    second: {fileID: 2800000, guid: db8eda9207f329d488b714dd610b1ed9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Hat_Opacity
+    second: {fileID: 2800000, guid: b01e880d486ee20489e636681826b0e5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Hat_Specular
+    second: {fileID: 2800000, guid: aaa4086756c1ecf48b303b88e5804355, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Shoes_Diffuse
+    second: {fileID: 2800000, guid: 3162d114e8aac1d42823a8107bb479c0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Shoes_Gloss
+    second: {fileID: 2800000, guid: 71639465a7701ef40bf6e27e75e1712e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Shoes_Normal
+    second: {fileID: 2800000, guid: c43663334ee17bc478bde421a881a0b2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Shoes_Opacity
+    second: {fileID: 2800000, guid: b93861e80f1d67f4dbd34473a5024c9e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Shoes_Specular
+    second: {fileID: 2800000, guid: deae6fe1cc700d549b1da698b73c9d94, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Top_Diffuse
+    second: {fileID: 2800000, guid: 5a4fe30174a171049befc6841b963fa9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Top_Gloss
+    second: {fileID: 2800000, guid: 379f6993dca504a488a313e440a34114, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Top_Normal
+    second: {fileID: 2800000, guid: cb876b1407f7bea40b64fef53095282d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Top_Opacity
+    second: {fileID: 2800000, guid: 80fe7bbba8ba97244b25ec0d29bdde83, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Swat_Top_Specular
+    second: {fileID: 2800000, guid: 32e39823a0c3c68408051eef0423e7c2, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

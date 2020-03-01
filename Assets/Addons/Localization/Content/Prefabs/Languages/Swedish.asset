@@ -1,0 +1,344 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 696b429a28c5fa743babb85aee900909, type: 3}
+  m_Name: Swedish
+  m_EditorClassIdentifier: 
+  LanguageName: Svenska
+  PlurarLetter: 
+  LanguageIcon: {fileID: 21300000, guid: 9c95fb6312d155a4ab0f60cad01d23bb, type: 3}
+  Data:
+  - StringID: playername
+    Text: Spelarnamn
+  - StringID: norooms
+    Text: ' Det finns inga rum skapade. SKAPA EN ATT SPELA'
+  - StringID: TDM
+    Text: Team Death Match
+  - StringID: FFA
+    Text: Free For All
+  - StringID: ctf
+    Text: Capture The Flag
+  - StringID: player
+    Text: spelare
+  - StringID: snd
+    Text: Search And Destroy
+  - StringID: cp
+    Text: Cover Point
+  - StringID: gr
+    Text: Gun Race
+  - StringID: lms
+    Text: Last Man Standing
+  - StringID: pickmedic
+    Text: Plocka upp medicinsk utrustning
+  - StringID: pckammo
+    Text: Plocka upp ammunition
+  - StringID: pickgun
+    Text: " Tryck p\xE5 [E] f\xF6r att h\xE4mta {0} "
+  - StringID: pickguneq
+    Text: "{0} \xE4r redan utrustad."
+  - StringID: playerstar
+    Text: 'VINNER: \ n <size = 14> <color = black> {0} </color> </size>'
+  - StringID: killed
+    Text: "d\xF6dade"
+  - StringID: headshot
+    Text: Huvudskott
+  - StringID: joinmatch
+    Text: Gick med i matchen
+  - StringID: leftmatch
+    Text: "L\xE4mnade matchen"
+  - StringID: commitsuicide
+    Text: "Begick sj\xE4lvmord"
+  - StringID: deathfall
+    Text: "F\xF6ll"
+  - StringID: killedenemy
+    Text: "D\xF6dad fiende"
+  - StringID: hsbonus
+    Text: Huvudskott Bonus
+  - StringID: joinin
+    Text: Var med
+  - StringID: plawinning
+    Text: 'VINNER: \ n <size = 10> <color = black> {0} | {1} / {2} </color> </size>'
+  - StringID: nolimit
+    Text: "Ingen gr\xE4ns"
+  - StringID: spectating
+    Text: "\xC5sk\xE5dare"
+  - StringID: killinaction
+    Text: "D\xD6DAD I STRID"
+  - StringID: '[server]'
+    Text: '[Server]'
+  - StringID: openchatkey
+    Text: '[Server]: Press ''T'' or ''Y'' for open chat box'
+  - StringID: noone
+    Text: Ingen
+  - StringID: youafk
+    Text: "Du \xE4r AFK, du kommer att sparkas in: {0}"
+  - StringID: returnlobby
+    Text: "\xC5terg\xE5 till lobbyn i"
+  - StringID: nextround
+    Text: "N\xE4sta omg\xE5ng i"
+  - StringID: wonthisround
+    Text: "Vann denna omg\xE5ng!"
+  - StringID: totalscore
+    Text: "Totalpo\xE4ng"
+  - StringID: spectcount
+    Text: "<b>{0}</b> \xC5SK\xC5DARE"
+  - StringID: waitingpla
+    Text: "V\xE4ntar p\xE5 spelare <b> {0} AV {1} </b>"
+  - StringID: respawnin
+    Text: 'RESPAWN I: {0}'
+  - StringID: loadlocalcon
+    Text: "LADAR SPELINNEH\xC5LL ..."
+  - StringID: connectserver
+    Text: ANSLUTNING TILL PSN3-SERVER ...
+  - StringID: cantconnect
+    Text: "<size=25><b>ERROR</b> </size> \\ n KONTROLLERA INTE TILL SERVER. \\ nV\xC4RDE:
+      {0}"
+  - StringID: flagcapture
+    Text: Har tagit flaggan
+  - StringID: gettheflag
+    Text: "Erh\xF6ll flaggan {0}"
+  - StringID: covercount
+    Text: 'COVER POINT I: <b>{0}</b>'
+  - StringID: auto
+    Text: AUTO
+  - StringID: single
+    Text: SINGLE
+  - StringID: semi
+    Text: BURST
+  - StringID: roomscreate
+    Text: '<b> RUM: </b> {0}'
+  - StringID: plaonline
+    Text: '<b>ONLINE: </b> {0}'
+  - StringID: plaplaying
+    Text: '<b> SPELARE SPELAR: </b> {0}'
+  - StringID: plainlobby
+    Text: '<b> SPELARE I LOBBY: </b> {0}'
+  - StringID: haskicked
+    Text: '{0} HAR KICKAS!'
+  - StringID: notkicked
+    Text: '{0} HAR INTE KICKT!'
+  - StringID: voteby
+    Text: "R\xD6ST AV: {0}"
+  - StringID: kick?
+    Text: KICKA '{0}'?
+  - StringID: youvote
+    Text: "DU R\xD6STAR {0}"
+  - StringID: kill
+    Text: "D\xF6da"
+  - StringID: death
+    Text: "D\xF6d"
+  - StringID: score
+    Text: Punkt
+  - StringID: timeplay
+    Text: Tid spelad
+  - StringID: winmatch
+    Text: 'Vinnbonus: {0}'
+  - StringID: continue
+    Text: "Forts\xE4tta"
+  - StringID: play
+    Text: Spela
+  - StringID: search
+    Text: "S\xD6K"
+  - StringID: createserver
+    Text: SKAPA SERVER
+  - StringID: wrseckey
+    Text: "Skriv den hemliga nyckeln till det h\xE4r kontot"
+  - StringID: cancel
+    Text: Avbryt
+  - StringID: servname
+    Text: SERVER NAMN
+  - StringID: map
+    Text: KARTA
+  - StringID: mode
+    Text: "L\xC4GE"
+  - StringID: goal
+    Text: "M\xC5L"
+  - StringID: maxping
+    Text: MAX PING
+  - StringID: state
+    Text: STAT
+  - StringID: hostroom
+    Text: "V\xE4rdrum"
+  - StringID: maxplayers
+    Text: Max spelare
+  - StringID: roundtime
+    Text: Round Tid
+  - StringID: gm
+    Text: "Spell\xE4ge"
+  - StringID: rounds
+    Text: 'Rundar:'
+  - StringID: maxkills
+    Text: "Max D\xF6dar"
+  - StringID: gampround
+    Text: "Spel per omg\xE5ng"
+  - StringID: autesele
+    Text: Auto Team Val
+  - StringID: friendfire
+    Text: "V\xE5dabek\xE4mpning"
+  - StringID: withbot
+    Text: Med Bots
+  - StringID: create
+    Text: SKAPA SPEL
+  - StringID: volume
+    Text: Volym
+  - StringID: sensiti
+    Text: "K\xE4nslighet"
+  - StringID: aimsensi
+    Text: "Sikta k\xE4nslighet"
+  - StringID: fovweapon
+    Text: VAPN FOV
+  - StringID: shofrarate
+    Text: VISA FRAMTID
+  - StringID: invmouver
+    Text: INVERT MUS VERTIKAL
+  - StringID: invmouhor
+    Text: INVERT MUS HORIZONTAL
+  - StringID: mutvoichat
+    Text: "ST\xC4NG AV R\xD6STCHATT"
+  - StringID: pustotalk
+    Text: "TRYCK F\xD6R ATT PRATA"
+  - StringID: save
+    Text: SPARA
+  - StringID: reset
+    Text: "\xC5TERST\xC4LLA"
+  - StringID: backvol
+    Text: BAKGRUNDVOLYM
+  - StringID: chroaber
+    Text: CHROMA
+  - StringID: antiali
+    Text: ANTIALIASING
+  - StringID: bloom
+    Text: BLOOM
+  - StringID: motiblur
+    Text: MOTION BLUR
+  - StringID: enable
+    Text: Aktiverad
+  - StringID: disable
+    Text: Inaktivera
+  - StringID: forceenable
+    Text: Kraft Aktivera
+  - StringID: quality
+    Text: Kvalitet
+  - StringID: anisofil
+    Text: "ANISO NIV\xC5"
+  - StringID: minute
+    Text: Minut
+  - StringID: FF
+    Text: Avkopplad
+  - StringID: online
+    Text: Uppkopplad
+  - StringID: ping
+    Text: Ping
+  - StringID: yes
+    Text: Ja
+  - StringID: no
+    Text: Nej
+  - StringID: areusulega
+    Text: "\xC4r du s\xE4ker p\xE5 att du vill l\xE4mna spelet?"
+  - StringID: friend
+    Text: "V\xE4n"
+  - StringID: resume
+    Text: "\xC5teruppta"
+  - StringID: scorboard
+    Text: Resultattavla
+  - StringID: settings
+    Text: "Inst\xE4llningar"
+  - StringID: changteam
+    Text: Byt Lag
+  - StringID: join
+    Text: Ansluta
+  - StringID: teamname
+    Text: Lagnamn
+  - StringID: suicide
+    Text: "Sj\xE4lvmord"
+  - StringID: leavroom
+    Text: "L\xE4mna rum"
+  - StringID: spectator
+    Text: "\xC5sk\xE5dare"
+  - StringID: send
+    Text: Skicka
+  - StringID: gamresume
+    Text: Match Reportering
+  - StringID: selettobg
+    Text: "V\xE4ljer lag f\xF6r att balansera spelet ..."
+  - StringID: kills
+    Text: "D\xF6dade"
+  - StringID: spawprotdi
+    Text: 'SPAWN BESKYTTNING AV: <b> {0} </b>'
+  - StringID: waifbtp
+    Text: "V\xE4ntar p\xE5 balanslagets spelare"
+  - StringID: killedby
+    Text: "D\xD6DAD AV:"
+  - StringID: joining
+    Text: Ansluter till spelet ...
+  - StringID: lea
+    Text: "L\xE4mnar match ..."
+  - StringID: pinghigh
+    Text: "Din Ping \xE4r h\xF6g!"
+  - StringID: kickedmessageafk
+    Text: You have been kicked for being AFK
+  - StringID: Burn
+    Text: Grillat
+  - StringID: Spectate
+    Text: "\xC5sk\xE5dare"
+  - StringID: changeclass
+    Text: BYTA VAPEN
+  - StringID: welcome_message
+    Text: "V\xE4lkommen till PSN3 demon. F\xF6r att komma ig\xE5ng, ange ditt \xF6nskade
+      anv\xE4ndarnamn h\xE4r"
+  - StringID: graphics_title
+    Text: Grafik
+  - StringID: audio_title
+    Text: Audio
+  - StringID: gameplay_title
+    Text: Spel
+  - StringID: demo_build
+    Text: 
+  - StringID: settings_menu
+    Text: "Inst\xE4llningar"
+  - StringID: credits
+    Text: Ackreditering
+  - StringID: exit
+    Text: Avsluta Spelet
+  - StringID: classes
+    Text: Mina Vapen
+  - StringID: primary
+    Text: "Prim\xE4r"
+  - StringID: secondary
+    Text: "Sekund\xE4r"
+  - StringID: grenade
+    Text: Granat
+  - StringID: knife
+    Text: Kniv
+  - StringID: stat_damage
+    Text: Skada
+  - StringID: stat_range
+    Text: "R\xE4ckvidd"
+  - StringID: stat_accuracy
+    Text: Noggrannhet
+  - StringID: stat_firerate
+    Text: Hastighet
+  - StringID: stat_weight
+    Text: Vikt
+  - StringID: matchmaking
+    Text: Matching
+  - StringID: pingkick
+    Text: " KAN INTE ANSLUTA TILL LOBBY. HITTA EN ANNAN LOBBY MED L\xC5GRE PINGKRAV"
+  - StringID: connecting_lobby
+    Text: Ansluter...
+  - StringID: return_to_menu
+    Text: Tillbaka till Menyn
+  - StringID: match_winner
+    Text: Matchvinnare
+  - StringID: match_summary
+    Text: Matchresultat
+  - StringID: language
+    Text: "Spr\xE5k"

@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615b14682374ba74897a87e0c72a7fa3, type: 3}
+  m_Name: GamePad
+  m_EditorClassIdentifier: 
+  m_Mapped:
+    AllKeys:
+    - Function: Run
+      Key: 340
+      Description: Run
+      Axis: 
+      isAxis: 0
+      AxisButton: 
+      AxisValue: 0
+    - Function: Jump
+      Key: 331
+      Description: Jump
+      Axis: 
+      isAxis: 0
+      AxisButton: 
+      AxisValue: 0
+    - Function: Crouch
+      Key: 332
+      Description: Crouch
+      Axis: 
+      isAxis: 0
+      AxisButton: 
+      AxisValue: 0
+    - Function: AmmoKit
+      Key: 343
+      Description: Throw Ammo
+      Axis: 
+      isAxis: 0
+      AxisButton: 
+      AxisValue: 0
+    - Function: Medkit
+      Key: 338
+      Description: Throw Medkit
+      Axis: 
+      isAxis: 0
+      AxisButton: 
+      AxisValue: 0
+    - Function: Weapon1
+      Key: 333
+      Description: Primary Weapon
+      Axis: 
+      isAxis: 0
+      AxisButton: 
+      AxisValue: 0
+    - Function: Weapon2
+      Key: 353
+      Description: Secundary Weapon
+      Axis: 
+      isAxis: 0
+      AxisButton: 
+      AxisValue: 0
+    - Function: Weapon3
+      Key: 334
+      Description: Knife
+      Axis: 
+      isAxis: 0
+      AxisButton: 
+      AxisValue: 0
+    - Function: Weapon4
+      Key: 335
+      Description: Grenade
+      Axis: 
+      isAxis: 0
+      AxisButton: 
+      AxisValue: 0
+    - Function: SuperJump
+      Key: 331
+      Description: Super Jump
+      Axis: 
+      isAxis: 0
+      AxisButton: 
+      AxisValue: 0
+    - Function: Reload
+      Key: 330
+      Description: Reload
+      Axis: 
+      isAxis: 0
+      AxisButton: 
+      AxisValue: 0
+    - Function: Fire
+      Key: 337
+      Description: Fire
+      Axis: 
+      isAxis: 0
+      AxisButton: 
+      AxisValue: 0
+    - Function: Aim
+      Key: 336
+      Description: Aim
+      Axis: 
+      isAxis: 0
+      AxisButton: 
+      AxisValue: 0
+    - Function: FastKnife
+      Key: 341
+      Description: Fire Knife
+      Axis: 
+      isAxis: 0
+      AxisButton: 
+      AxisValue: 0
+    - Function: FireType
+      Key: 363
+      Description: Change Fire Type
+      Axis: 
+      isAxis: 0
+      AxisButton: 
+      AxisValue: 0
+    - Function: Pause
+      Key: 339
+      Description: Pause the Game
+      Axis: 
+      isAxis: 0
+      AxisButton: 
+      AxisValue: 0

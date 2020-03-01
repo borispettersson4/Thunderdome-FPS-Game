@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359ebc0e90e68f4580fe50ba292de5a, type: 3}
+  m_Name: ClassManager
+  m_EditorClassIdentifier: 
+  m_Class: 0
+  DefaulPrimaryAssault: 0
+  DefaulSecundaryAssault: 1
+  DefaulKnifeAssault: 5
+  DefaulGrenadeAssault: 6
+  DefaulPrimaryEnginner: 2
+  DefaulSecundaryEnginner: 1
+  DefaulKnifeEnginner: 5
+  DefaulGrenadeEnginner: 3
+  DefaulPrimarySupport: 0
+  DefaulSecundarySupport: 1
+  DefaulKnifeSupport: 5
+  DefaulGrenadeSupport: 6
+  DefaulPrimaryRecon: 4
+  DefaulSecundaryRecon: 1
+  DefaulKnifeRecon: 5
+  DefaulGrenadeRecon: 3
+  DeleteKeysBool: 0
+  PrimaryAssault: 0
+  SecundaryAssault: 1
+  KnifeAssault: 5
+  GrenadeAssault: 6
+  PrimaryEnginner: 2
+  SecundaryEnginner: 1
+  KnifeEnginner: 5
+  GrenadeEnginner: 3
+  PrimarySupport: 0
+  SecundarySupport: 1
+  KnifeSupport: 5
+  GrenadeSupport: 6
+  PrimaryRecon: 4
+  SecundaryRecon: 1
+  KnifeRecon: 5
+  GrenadeRecon: 3

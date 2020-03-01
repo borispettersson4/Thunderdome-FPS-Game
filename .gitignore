@@ -1,0 +1,36 @@
+# =============== #
+# Unity generated #
+# =============== #
+Temp/
+Library/
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+*.svd
+*.userprefs
+/*.csproj
+*.pidb
+*.suo
+/*.sln
+*.user
+*.unityproj
+*.booproj
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Broken Dreams/Broken Dreams.csproj
+Broken Dreams/Broken Dreams.Plugins.csproj
+Broken Dreams/Broken Dreams.Editor.csproj
+Broken Dreams/Broken Dreams.Editor.Plugins.csproj
+Broken Dreams/Assets/Scenes/Game Scenes/Test Scenes/1_Starting Map/StartingMap - David.unity.meta
+Broken Dreams/Assets/Scenes/Game Scenes/Test Scenes/1_Starting Map/StartingMap - Dani.unity.meta

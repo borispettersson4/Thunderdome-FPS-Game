@@ -97,7 +97,7 @@ MonoBehaviour:
   - StringID: loadlocalcon
     Text: "LADAR SPELINNEH\xC5LL ..."
   - StringID: connectserver
-    Text: ANSLUTNING TILL PSN3-SERVER ...
+    Text: ANSLUTER TILL THUNDERDOME SERVER ...
   - StringID: cantconnect
     Text: "<size=25><b>ERROR</b> </size> \\ n KONTROLLERA INTE TILL SERVER. \\ nV\xC4RDE:
       {0}"
@@ -292,8 +292,8 @@ MonoBehaviour:
   - StringID: changeclass
     Text: BYTA VAPEN
   - StringID: welcome_message
-    Text: "V\xE4lkommen till PSN3 demon. F\xF6r att komma ig\xE5ng, ange ditt \xF6nskade
-      anv\xE4ndarnamn h\xE4r"
+    Text: "V\xE4lkommen till ThunderDome demon. F\xF6r att komma ig\xE5ng, ange ditt
+      \xF6nskade anv\xE4ndarnamn h\xE4r"
   - StringID: graphics_title
     Text: Grafik
   - StringID: audio_title

@@ -97,7 +97,7 @@ MonoBehaviour:
   - StringID: loadlocalcon
     Text: CARGANDO CONTENIDO LOCAL...
   - StringID: connectserver
-    Text: CONECTANDO AL SERVIDOR DE MFPS...
+    Text: CONECTANDO AL SERVIDOR DE THUNDERDOME...
   - StringID: cantconnect
     Text: '<size=25><b>VAYA!</b></size>\nNO HEMOS PODIDO CONTACTAR AL SERVIDOR.\nCAUSA:
       {0}'
@@ -292,8 +292,8 @@ MonoBehaviour:
   - StringID: changeclass
     Text: CAMBIAR ARMAS
   - StringID: welcome_message
-    Text: "Bienvenido a la demostraci\xF3n de PSN3. Para comenzar, ingrese su nombre
-      de usuario preferido aqu\xED"
+    Text: "Bienvenido a la demostraci\xF3n de ThunderDome. Para comenzar, ingrese
+      su nombre de usuario preferido aqu\xED"
   - StringID: graphics_title
     Text: Graficas
   - StringID: audio_title

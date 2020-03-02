@@ -97,7 +97,7 @@ MonoBehaviour:
   - StringID: loadlocalcon
     Text: LOADING GAME CONTENT...
   - StringID: connectserver
-    Text: CONNECTING TO PSN3 SERVERS...
+    Text: CONNECTING TO THUNDERDOME SERVERS...
   - StringID: cantconnect
     Text: '<size=25><b>OPPS!</b></size>\nCOULD NOT CONNECT TO THE SERVER.\nCAUSE:
       {0}'
@@ -292,8 +292,8 @@ MonoBehaviour:
   - StringID: changeclass
     Text: CHANGE CLASS
   - StringID: welcome_message
-    Text: Welcome to the PSN3 Demo. To get started, please enter your preferred username
-      here
+    Text: Welcome to the ThunderDome Demo. To get started, please enter your preferred
+      username here
   - StringID: graphics_title
     Text: Graphics
   - StringID: audio_title

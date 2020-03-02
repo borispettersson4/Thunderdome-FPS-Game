@@ -342,3 +342,7 @@ MonoBehaviour:
     Text: Matchresultat
   - StringID: language
     Text: "Spr\xE5k"
+  - StringID: general
+    Text: Generell
+  - StringID: controls
+    Text: Knotroller

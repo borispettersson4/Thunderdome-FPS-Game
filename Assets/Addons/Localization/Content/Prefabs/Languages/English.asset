@@ -342,3 +342,7 @@ MonoBehaviour:
     Text: Match Summary
   - StringID: language
     Text: Language
+  - StringID: general
+    Text: General
+  - StringID: controls
+    Text: Controls

@@ -1223,21 +1223,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114052633521580696, guid: c3c2b2b588061954dbb6044474df0805,
-        type: 3}
-      propertyPath: ClassButtons.Array.data[3]
-      value: 
-      objectReference: {fileID: 30678357}
-    - target: {fileID: 114052633521580696, guid: c3c2b2b588061954dbb6044474df0805,
-        type: 3}
-      propertyPath: ClassButtons.Array.data[2]
-      value: 
-      objectReference: {fileID: 580832236}
-    - target: {fileID: 114052633521580696, guid: c3c2b2b588061954dbb6044474df0805,
-        type: 3}
-      propertyPath: ClassButtons.Array.data[1]
-      value: 
-      objectReference: {fileID: 827784538}
     - target: {fileID: 4546315386055472, guid: c3c2b2b588061954dbb6044474df0805, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1292,6 +1277,21 @@ PrefabInstance:
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1748024009}
+    - target: {fileID: 114052633521580696, guid: c3c2b2b588061954dbb6044474df0805,
+        type: 3}
+      propertyPath: ClassButtons.Array.data[3]
+      value: 
+      objectReference: {fileID: 30678357}
+    - target: {fileID: 114052633521580696, guid: c3c2b2b588061954dbb6044474df0805,
+        type: 3}
+      propertyPath: ClassButtons.Array.data[2]
+      value: 
+      objectReference: {fileID: 580832236}
+    - target: {fileID: 114052633521580696, guid: c3c2b2b588061954dbb6044474df0805,
+        type: 3}
+      propertyPath: ClassButtons.Array.data[1]
+      value: 
+      objectReference: {fileID: 827784538}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3c2b2b588061954dbb6044474df0805, type: 3}
 --- !u!1 &1278663971
@@ -2172,6 +2172,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375593041923283868, guid: 129a9f06e5caa014dbbc5e908cedeeef,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375593041932581724, guid: 129a9f06e5caa014dbbc5e908cedeeef,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375593041930325272, guid: 129a9f06e5caa014dbbc5e908cedeeef,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6375593041920129272, guid: 129a9f06e5caa014dbbc5e908cedeeef,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 129a9f06e5caa014dbbc5e908cedeeef, type: 3}

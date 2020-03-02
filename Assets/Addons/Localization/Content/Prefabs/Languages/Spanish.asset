@@ -343,3 +343,7 @@ MonoBehaviour:
     Text: Resultados del Partido
   - StringID: language
     Text: Lenguaje
+  - StringID: general
+    Text: General
+  - StringID: controls
+    Text: Controles

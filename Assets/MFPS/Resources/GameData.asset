@@ -60,10 +60,6 @@ MonoBehaviour:
     m_Scene: {fileID: 102900000, guid: 9804f05d9a6a3d645b43295befaa7411, type: 3}
     RealSceneName: Hangar
     Preview: {fileID: 21300000, guid: c5cee3cac15344f46868adf64806f66a, type: 3}
-  - ShowName: Temple
-    m_Scene: {fileID: 102900000, guid: 084b84aceda015f4f856fa44a8edf5e5, type: 3}
-    RealSceneName: Temple
-    Preview: {fileID: 21300000, guid: d85159afff668844daee4156c09a254d, type: 3}
   AllWeapons:
   - Name: MP-5
     Type: 1

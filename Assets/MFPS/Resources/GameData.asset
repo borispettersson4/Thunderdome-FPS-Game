@@ -67,6 +67,7 @@ MonoBehaviour:
   AllWeapons:
   - Name: MP-5
     Type: 1
+    FireType: 1
     Damage: 15
     FireRate: 0.09
     ReloadTime: 2.5
@@ -79,7 +80,8 @@ MonoBehaviour:
       type: 3}
     GunIcon: {fileID: 21300000, guid: b770103d6ad72c345b690122e2789775, type: 3}
   - Name: Glock 88
-    Type: 1
+    Type: 3
+    FireType: 1
     Damage: 15
     FireRate: 0.12
     ReloadTime: 2
@@ -93,6 +95,7 @@ MonoBehaviour:
     GunIcon: {fileID: 21300000, guid: 67817f6c38715a64a8074a1940d6b966, type: 3}
   - Name: M1200
     Type: 0
+    FireType: 1
     Damage: 50
     FireRate: 1.25
     ReloadTime: 6
@@ -106,6 +109,7 @@ MonoBehaviour:
     GunIcon: {fileID: 21300000, guid: f46bf914a29644c46a4d817ec77246cb, type: 3}
   - Name: M28 Frag
     Type: 5
+    FireType: 1
     Damage: 100
     FireRate: 1
     ReloadTime: 1
@@ -119,6 +123,7 @@ MonoBehaviour:
     GunIcon: {fileID: 21300000, guid: 5888e24ba146f2141b5c01400fd2c24c, type: 3}
   - Name: Karatov 45
     Type: 2
+    FireType: 1
     Damage: 90
     FireRate: 1.8
     ReloadTime: 3
@@ -132,6 +137,7 @@ MonoBehaviour:
     GunIcon: {fileID: 21300000, guid: 8fc34eb714f6fa64f928bbad3049b5d8, type: 3}
   - Name: Brawning Knife
     Type: 6
+    FireType: 6
     Damage: 60
     FireRate: 0.6
     ReloadTime: 0.5
@@ -145,6 +151,7 @@ MonoBehaviour:
     GunIcon: {fileID: 21300000, guid: 38349530c3a41fd4a8ecc2df82a57e3a, type: 3}
   - Name: Molotov
     Type: 5
+    FireType: 5
     Damage: 20
     FireRate: 1
     ReloadTime: 1.2
@@ -158,6 +165,7 @@ MonoBehaviour:
     GunIcon: {fileID: 21300000, guid: 2fd72e2aa4d7cc14f993fa22e6f2ff19, type: 3}
   - Name: ITA-65
     Type: 1
+    FireType: 1
     Damage: 25
     FireRate: 0.18
     ReloadTime: 3
@@ -171,6 +179,7 @@ MonoBehaviour:
     GunIcon: {fileID: 21300000, guid: 6693314b9d52a1d49bacbba44c293457, type: 3}
   - Name: AK-47
     Type: 1
+    FireType: 1
     Damage: 20
     FireRate: 0.11
     ReloadTime: 4
@@ -184,6 +193,7 @@ MonoBehaviour:
     GunIcon: {fileID: 21300000, guid: 122dfe310a0a435408da6070e4f1db94, type: 3}
   - Name: Skorpion
     Type: 3
+    FireType: 1
     Damage: 15
     FireRate: 0.08
     ReloadTime: 2
@@ -197,6 +207,7 @@ MonoBehaviour:
     GunIcon: {fileID: 21300000, guid: 7de94018f290ad642a57fda772215d00, type: 3}
   - Name: M4A1
     Type: 1
+    FireType: 1
     Damage: 18
     FireRate: 0.09
     ReloadTime: 3
@@ -210,6 +221,7 @@ MonoBehaviour:
     GunIcon: {fileID: 21300000, guid: 78122830ac543924487a466630ef8f81, type: 3}
   - Name: UMP-45
     Type: 1
+    FireType: 1
     Damage: 15
     FireRate: 0.11
     ReloadTime: 3
@@ -223,6 +235,7 @@ MonoBehaviour:
     GunIcon: {fileID: 21300000, guid: 821f87a1bda06fb47b668e3cc7af9647, type: 3}
   - Name: AWP
     Type: 2
+    FireType: 2
     Damage: 95
     FireRate: 1.5
     ReloadTime: 3
@@ -236,6 +249,7 @@ MonoBehaviour:
     GunIcon: {fileID: 21300000, guid: d91628931fe24d54bac343237d3d6d03, type: 3}
   - Name: Skor-PEKR
     Type: 3
+    FireType: 1
     Damage: 15
     FireRate: 0.08
     ReloadTime: 2
@@ -249,6 +263,7 @@ MonoBehaviour:
     GunIcon: {fileID: 21300000, guid: fc69d7cbd31e23c41bc307c83b48bf18, type: 3}
   - Name: M1911
     Type: 3
+    FireType: 3
     Damage: 20
     FireRate: 0.14
     ReloadTime: 2
@@ -262,6 +277,7 @@ MonoBehaviour:
     GunIcon: {fileID: 21300000, guid: 5148758c65a420844abd4741f6bd99c2, type: 3}
   - Name: ACP-45
     Type: 3
+    FireType: 3
     Damage: 18
     FireRate: 0.12
     ReloadTime: 2
@@ -275,6 +291,7 @@ MonoBehaviour:
     GunIcon: {fileID: 21300000, guid: c39d003e49cc6294a903439329b7d32b, type: 3}
   - Name: 870-MCS
     Type: 0
+    FireType: 0
     Damage: 50
     FireRate: 1.25
     ReloadTime: 6
@@ -288,6 +305,7 @@ MonoBehaviour:
     GunIcon: {fileID: 21300000, guid: 572644f04ea71cc4ab56e0cadb356db3, type: 3}
   - Name: M110-ASR
     Type: 1
+    FireType: 1
     Damage: 35
     FireRate: 0.14
     ReloadTime: 4
@@ -301,6 +319,7 @@ MonoBehaviour:
     GunIcon: {fileID: 21300000, guid: 48bca01b0a9c2ba4d83ecffb65ed22ab, type: 3}
   - Name: KA-BAR
     Type: 6
+    FireType: 6
     Damage: 80
     FireRate: 0.5
     ReloadTime: 0.5
@@ -314,6 +333,7 @@ MonoBehaviour:
     GunIcon: {fileID: 21300000, guid: f312581014986de4786ff883a5d00cf5, type: 3}
   - Name: Semtex
     Type: 5
+    FireType: 5
     Damage: 80
     FireRate: 1
     ReloadTime: 1
@@ -327,6 +347,7 @@ MonoBehaviour:
     GunIcon: {fileID: 21300000, guid: 6667059283574534792ceaab45c70ec2, type: 3}
   - Name: Impact
     Type: 5
+    FireType: 5
     Damage: 50
     FireRate: 1
     ReloadTime: 1
@@ -340,6 +361,7 @@ MonoBehaviour:
     GunIcon: {fileID: 21300000, guid: 37d8974048ea91845a0be67f0ed788bb, type: 3}
   - Name: FireBomb
     Type: 5
+    FireType: 5
     Damage: 40
     FireRate: 1
     ReloadTime: 1
@@ -353,6 +375,7 @@ MonoBehaviour:
     GunIcon: {fileID: 21300000, guid: 3738d1821b8ff8e43b1210c4d757fa32, type: 3}
   - Name: Vector-K
     Type: 1
+    FireType: 1
     Damage: 14
     FireRate: 0.07
     ReloadTime: 3
@@ -366,6 +389,7 @@ MonoBehaviour:
     GunIcon: {fileID: 21300000, guid: 5b8ccafa6c0319845a53e991b57a9e6e, type: 3}
   - Name: VEPR-12
     Type: 0
+    FireType: 0
     Damage: 30
     FireRate: 0.3
     ReloadTime: 3
@@ -379,6 +403,7 @@ MonoBehaviour:
     GunIcon: {fileID: 21300000, guid: bc1792a933b25aa47b81f5f6f509f699, type: 3}
   - Name: Tomahawk
     Type: 6
+    FireType: 6
     Damage: 95
     FireRate: 0.8
     ReloadTime: 0.5
@@ -392,6 +417,7 @@ MonoBehaviour:
     GunIcon: {fileID: 21300000, guid: a9b914be9382f904f82573503ec96d78, type: 3}
   - Name: AK5C
     Type: 1
+    FireType: 1
     Damage: 19
     FireRate: 0.1
     ReloadTime: 3

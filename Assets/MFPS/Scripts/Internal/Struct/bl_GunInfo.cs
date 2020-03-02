@@ -7,6 +7,7 @@ public class bl_GunInfo
     [Header("Info")]
     public string Name;
     public GunType Type = GunType.Machinegun;
+    public GunType FireType = GunType.Machinegun;
 
     [Header("Settings")]
     [Range(1,100)] public int Damage;

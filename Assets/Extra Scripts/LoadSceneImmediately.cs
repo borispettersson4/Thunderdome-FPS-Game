@@ -9,6 +9,21 @@ public class LoadSceneImmediately : MonoBehaviour
 
     void Start()
     {
-        SceneManager.LoadSceneAsync(sceneName);
+        LoadLevelAsync(sceneName);
+    }
+
+    public void LoadLevelAsync(string sceneName)
+    {
+        StartCoroutine(LoadAsynchronously(sceneName));
+    }
+
+    IEnumerator LoadAsynchronously(string sceneName)
+    {
+        AsyncOperation operation = SceneManager.LoadSceneAsync(sceneName);
+
+        while (!operation.isDone)
+        {
+            yield return null;
+        }
     }
 }

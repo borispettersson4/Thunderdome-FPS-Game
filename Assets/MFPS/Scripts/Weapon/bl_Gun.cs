@@ -338,7 +338,7 @@ public class bl_Gun : bl_GunBase
                 {
                     if (isReloading)//if try fire while reloading 
                     {
-                        if (Info.Type == GunType.Sniper || Info.Type == GunType.Shotgun)
+                        if (Info.FireType == GunType.Sniper || Info.FireType == GunType.Shotgun)
                         {
                             if (bulletsLeft > 0)//and has at least one bullet
                             {
@@ -346,7 +346,7 @@ public class bl_Gun : bl_GunBase
                             }
                         }
                     }
-                    switch (Info.Type)
+                    switch (Info.FireType)
                     {
                         case GunType.Shotgun:
                             ShotGun_Fire();
@@ -371,7 +371,7 @@ public class bl_Gun : bl_GunBase
                 }
                 if (FireButton)//if keep pressed
                 {
-                    if (Info.Type == GunType.Machinegun)
+                    if (Info.FireType == GunType.Machinegun)
                     {
                         MachineGun_Fire();
                     }
@@ -423,7 +423,7 @@ public class bl_Gun : bl_GunBase
         {
             Reload();
         }
-        if (Info.Type == GunType.Machinegun || Info.Type == GunType.Burst || Info.Type == GunType.Pistol)
+        if (Info.FireType == GunType.Machinegun || Info.FireType == GunType.Burst || Info.FireType == GunType.Pistol)
         {
             ChangeTypeFire();
         }
@@ -472,36 +472,36 @@ public class bl_Gun : bl_GunBase
 #endif 
         if (inp)
         {
-            switch (Info.Type)
+            switch (Info.FireType)
             {
                 case GunType.Machinegun:
                     if (CanSemi)
                     {
-                        Info.Type = GunType.Burst;
+                        Info.FireType = GunType.Burst;
                     }
                     else if (CanSingle)
                     {
-                        Info.Type = GunType.Pistol;
+                        Info.FireType = GunType.Pistol;
                     }
                     break;
                 case GunType.Burst:
                     if (CanSingle)
                     {
-                        Info.Type = GunType.Pistol;
+                        Info.FireType = GunType.Pistol;
                     }
                     else if (CanAuto)
                     {
-                        Info.Type = GunType.Machinegun;
+                        Info.FireType = GunType.Machinegun;
                     }
                     break;
                 case GunType.Pistol:
                     if (CanAuto)
                     {
-                        Info.Type = GunType.Machinegun;
+                        Info.FireType = GunType.Machinegun;
                     }
                     else if (CanSemi)
                     {
-                        Info.Type = GunType.Burst;
+                        Info.FireType = GunType.Burst;
                     }
                     break;
             }
@@ -549,7 +549,7 @@ public class bl_Gun : bl_GunBase
         if (!m_CanFire)
             return;
 
-        switch (Info.Type)
+        switch (Info.FireType)
         {
             case GunType.Shotgun:
                 ShotGun_Fire();  // fire shotgun
@@ -1479,7 +1479,7 @@ public class bl_Gun : bl_GunBase
     void SetFireTypeName()
     {
         string n = string.Empty;
-        switch (Info.Type)
+        switch (Info.FireType)
         {
             case GunType.Machinegun:
                 n = bl_GameTexts.FireTypeAuto;

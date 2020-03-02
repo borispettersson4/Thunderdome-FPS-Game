@@ -1461,7 +1461,7 @@ public class bl_Lobby : bl_PhotonHelper, IConnectionCallbacks, ILobbyCallbacks, 
 
         while (!operation.isDone)
         {
-            Debug.Log(operation.progress);
+            //Debug.Log(operation.progress);
             yield return null;
         }
     }

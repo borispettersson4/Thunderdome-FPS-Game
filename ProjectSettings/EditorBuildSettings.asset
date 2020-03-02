@@ -27,9 +27,9 @@ EditorBuildSettings:
     path: Assets/MFPS/Scenes/Hangar.unity
     guid: 9804f05d9a6a3d645b43295befaa7411
   - enabled: 1
-    path: Assets/MFPS/Scenes/Temple.unity
-    guid: 084b84aceda015f4f856fa44a8edf5e5
-  - enabled: 1
     path: Assets/MFPS/Scenes/Flood.unity
     guid: ab3ce3cfc27eb9b4ca66e255db3711cd
+  - enabled: 0
+    path: Assets/MFPS/Scenes/Temple.unity
+    guid: 084b84aceda015f4f856fa44a8edf5e5
   m_configObjects: {}

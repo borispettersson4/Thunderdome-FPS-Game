@@ -109,7 +109,7 @@ MonoBehaviour:
     GunIcon: {fileID: 21300000, guid: f46bf914a29644c46a4d817ec77246cb, type: 3}
   - Name: M28 Frag
     Type: 5
-    FireType: 1
+    FireType: 5
     Damage: 100
     FireRate: 1
     ReloadTime: 1
@@ -123,7 +123,7 @@ MonoBehaviour:
     GunIcon: {fileID: 21300000, guid: 5888e24ba146f2141b5c01400fd2c24c, type: 3}
   - Name: Karatov 45
     Type: 2
-    FireType: 1
+    FireType: 2
     Damage: 90
     FireRate: 1.8
     ReloadTime: 3

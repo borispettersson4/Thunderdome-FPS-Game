@@ -21,7 +21,13 @@ public class bl_KillCamUI : MonoBehaviour
         if(gunID > 100)
         {
             GunImage.sprite = GenericDeathImage;
-            GunNameText.text = bl_GameTexts.DeathByFall.ToUpper();
+            GunNameText.text = bl_Localization.Instance.GetText("deathfall").ToUpper();
+            KillerNameText.text = killer;
+        }
+        else if (gunID == 0)
+        {
+            GunImage.sprite = GenericDeathImage;
+            GunNameText.text = bl_Localization.Instance.GetText("suicide").ToUpper();
             KillerNameText.text = killer;
         }
         else

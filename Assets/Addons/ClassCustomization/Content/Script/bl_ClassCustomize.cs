@@ -73,6 +73,7 @@ namespace MFPS.ClassCustomization
             }
             SaveClass();
         }
+
         /// <summary>
         /// 
         /// </summary>

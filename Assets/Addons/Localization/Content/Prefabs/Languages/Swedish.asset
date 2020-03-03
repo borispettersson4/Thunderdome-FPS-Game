@@ -51,7 +51,7 @@ MonoBehaviour:
   - StringID: headshot
     Text: Huvudskott
   - StringID: joinmatch
-    Text: Gick med i matchen
+    Text: Anslutet till matchen
   - StringID: leftmatch
     Text: "L\xE4mnade matchen"
   - StringID: commitsuicide
@@ -63,7 +63,7 @@ MonoBehaviour:
   - StringID: hsbonus
     Text: Huvudskott Bonus
   - StringID: joinin
-    Text: Var med
+    Text: Gick med
   - StringID: plawinning
     Text: 'VINNER: \ n <size = 10> <color = black> {0} | {1} / {2} </color> </size>'
   - StringID: nolimit
@@ -337,7 +337,7 @@ MonoBehaviour:
   - StringID: return_to_menu
     Text: Tillbaka till Menyn
   - StringID: match_winner
-    Text: Matchvinnare
+    Text: Match Slut
   - StringID: match_summary
     Text: Matchresultat
   - StringID: language

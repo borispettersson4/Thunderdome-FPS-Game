@@ -338,7 +338,7 @@ MonoBehaviour:
   - StringID: return_to_menu
     Text: Retornar al Menu
   - StringID: match_winner
-    Text: Ganador del Partido
+    Text: Partido Acabado
   - StringID: match_summary
     Text: Resultados del Partido
   - StringID: language

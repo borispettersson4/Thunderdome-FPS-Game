@@ -51,7 +51,7 @@ MonoBehaviour:
   - StringID: headshot
     Text: HeadShot
   - StringID: joinmatch
-    Text: Joined in the match
+    Text: Joined the match
   - StringID: leftmatch
     Text: Left of match
   - StringID: commitsuicide
@@ -63,7 +63,7 @@ MonoBehaviour:
   - StringID: hsbonus
     Text: HeadShot Bonus
   - StringID: joinin
-    Text: Join in
+    Text: Joined in
   - StringID: plawinning
     Text: PLAYER WINNING:\n<size=10><color=black>{0} | {1}/{2}</color></size>
   - StringID: nolimit
@@ -337,7 +337,7 @@ MonoBehaviour:
   - StringID: return_to_menu
     Text: Return to Menu
   - StringID: match_winner
-    Text: Match Winner
+    Text: Match Over
   - StringID: match_summary
     Text: Match Summary
   - StringID: language

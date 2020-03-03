@@ -7,6 +7,7 @@ using Random = UnityEngine.Random;
 using Photon.Pun;
 using Photon.Realtime;
 using UnityEngine.SceneManagement;
+using MFPS.ClassCustomization;
 
 public class bl_Lobby : bl_PhotonHelper, IConnectionCallbacks, ILobbyCallbacks, IMatchmakingCallbacks
 {
@@ -177,6 +178,41 @@ public class bl_Lobby : bl_PhotonHelper, IConnectionCallbacks, ILobbyCallbacks, 
 #if LOCALIZATION
         bl_Localization.Instance.OnLanguageChange += OnLanguageChange;
 #endif
+
+        InitializeClasses();
+
+    }
+
+    void InitializeClasses()
+    {
+        if (PlayerPrefs.GetInt(ClassKey.PrimaryAssault) == 0) PlayerPrefs.SetInt(ClassKey.PrimaryAssault, 11);
+        if (PlayerPrefs.GetInt(ClassKey.SecondaryAssault) == 0) PlayerPrefs.SetInt(ClassKey.SecondaryAssault, 1);
+        if (PlayerPrefs.GetInt(ClassKey.GrenadeAssault) == 0) PlayerPrefs.SetInt(ClassKey.GrenadeAssault, 3);
+        if (PlayerPrefs.GetInt(ClassKey.KnifeAssault) == 0) PlayerPrefs.SetInt(ClassKey.KnifeAssault, 5);
+
+        if (PlayerPrefs.GetInt(ClassKey.PrimaryEnginner) == 0) PlayerPrefs.SetInt(ClassKey.PrimaryEnginner, 25);
+        if (PlayerPrefs.GetInt(ClassKey.SecondaryEnginner) == 0) PlayerPrefs.SetInt(ClassKey.SecondaryEnginner, 23);
+        if (PlayerPrefs.GetInt(ClassKey.GrenadeEnginner) == 0) PlayerPrefs.SetInt(ClassKey.GrenadeEnginner, 20);
+        if (PlayerPrefs.GetInt(ClassKey.KnifeEnginner) == 0) PlayerPrefs.SetInt(ClassKey.KnifeEnginner, 24);
+
+        if (PlayerPrefs.GetInt(ClassKey.PrimaryRecon) == 0) PlayerPrefs.SetInt(ClassKey.PrimaryRecon, 7);
+        if (PlayerPrefs.GetInt(ClassKey.SecondaryRecon) == 0) PlayerPrefs.SetInt(ClassKey.SecondaryRecon, 16);
+        if (PlayerPrefs.GetInt(ClassKey.GrenadeRecon) == 0) PlayerPrefs.SetInt(ClassKey.GrenadeRecon, 6);
+        if (PlayerPrefs.GetInt(ClassKey.KnifeRecon) == 0) PlayerPrefs.SetInt(ClassKey.KnifeRecon, 18);
+
+        if (PlayerPrefs.GetInt(ClassKey.PrimarySupport) == 0) PlayerPrefs.SetInt(ClassKey.PrimarySupport, 12);
+        if (PlayerPrefs.GetInt(ClassKey.SecondarySupport) == 0) PlayerPrefs.SetInt(ClassKey.SecondarySupport, 9);
+        if (PlayerPrefs.GetInt(ClassKey.GrenadeSupport) == 0) PlayerPrefs.SetInt(ClassKey.GrenadeSupport, 21);
+        if (PlayerPrefs.GetInt(ClassKey.KnifeSupport) == 0) PlayerPrefs.SetInt(ClassKey.KnifeSupport, 5);
+
+        if (PlayerPrefs.GetInt(ClassKey.PrimaryGrenadier) == 0) PlayerPrefs.SetInt(ClassKey.PrimaryGrenadier, 10);
+        if (PlayerPrefs.GetInt(ClassKey.SecondaryGrenadier) == 0) PlayerPrefs.SetInt(ClassKey.SecondaryGrenadier, 14);
+        if (PlayerPrefs.GetInt(ClassKey.GrenadeGrenadier) == 0) PlayerPrefs.SetInt(ClassKey.GrenadeGrenadier, 19);
+        if (PlayerPrefs.GetInt(ClassKey.KnifeGrenadier) == 0) PlayerPrefs.SetInt(ClassKey.KnifeGrenadier, 18);
+
+        if (PlayerPrefs.GetInt("InitClassSetup") == 0)
+            PlayerPrefs.SetInt("InitClassSetup", 1);
+
     }
 
     /// <summary>

@@ -301,7 +301,7 @@ MonoBehaviour:
     GunIcon: {fileID: 21300000, guid: 572644f04ea71cc4ab56e0cadb356db3, type: 3}
   - Name: M110-ASR
     Type: 1
-    FireType: 1
+    FireType: 3
     Damage: 35
     FireRate: 0.14
     ReloadTime: 4
@@ -447,9 +447,9 @@ MonoBehaviour:
   Team2Color: {r: 0.4764151, g: 0.5642423, b: 1, a: 1}
   Player1: {fileID: 6733255199183277843, guid: 09e684f40f1e8964ea25bf0c1d42d28f, type: 3}
   Player2: {fileID: 4858591117748413756, guid: 70edab62da89d9e48a5bd834112a3a5f, type: 3}
-  BotTeam1: {fileID: 2946631738259762362, guid: ded310b0d8c0a7e4ab5f1ffbceab7f83,
+  BotTeam1: {fileID: 3934041964007239630, guid: b97ace4524f0f70428027f74e68235f9,
     type: 3}
-  BotTeam2: {fileID: 3934041964007239630, guid: b97ace4524f0f70428027f74e68235f9,
+  BotTeam2: {fileID: 2946631738259762362, guid: ded310b0d8c0a7e4ab5f1ffbceab7f83,
     type: 3}
   GameTeam:
   - UserName: SuperAdmin

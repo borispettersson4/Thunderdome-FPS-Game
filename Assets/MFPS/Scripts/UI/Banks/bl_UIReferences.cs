@@ -242,6 +242,7 @@ public class bl_UIReferences : bl_PhotonHelper,IInRoomCallbacks
     {
         PlayerUI.PickUpUI.SetActive(false);
         JumpLadder.SetActive(false);
+        ShowMenu(false);
     }
 
     /// <summary>
@@ -784,7 +785,8 @@ public class bl_UIReferences : bl_PhotonHelper,IInRoomCallbacks
     /// <param name="e"></param>
     void OnPlayerSpawn()
     {
-        if(KillCamUI != null) KillCamUI.gameObject.SetActive(false);
+        ShowMenu(false);
+        if (KillCamUI != null) KillCamUI.gameObject.SetActive(false);
         MenuGUIBackground.GetComponent<Image>().enabled = false;
 
         var player = PhotonNetwork.LocalPlayer;

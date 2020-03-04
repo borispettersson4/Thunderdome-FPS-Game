@@ -1212,17 +1212,13 @@ public class bl_Lobby : bl_PhotonHelper, IConnectionCallbacks, ILobbyCallbacks, 
         //Wait for check
         if (Chat != null && Chat.isConnected()) { Chat.Disconnect(); }
 
-        AsyncOperation operation = SceneManager.LoadSceneAsync(sceneName);
-
-        while (!operation.isDone)
+        while (!PhotonNetwork.InRoom)
         {
-            float progress = Mathf.Clamp01(operation.progress / 1.0f);
-            LoadingSlider.value = progress;
-            Debug.Log("PROGRESS LOADING : " + LoadingSlider.value);
             yield return null;
         }
 
         PhotonNetwork.IsMessageQueueRunning = false;
+        bl_UtilityHelper.LoadLevel((string)PhotonNetwork.CurrentRoom.CustomProperties[PropertiesKeys.SceneNameKey]);
     }
     /// <summary>
     /// 

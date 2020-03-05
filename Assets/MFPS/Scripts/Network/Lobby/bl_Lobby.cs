@@ -459,7 +459,7 @@ public class bl_Lobby : bl_PhotonHelper, IConnectionCallbacks, ILobbyCallbacks, 
         properties[11] = PropertiesKeys.NumberOfRounds;
 #endif
 
-        properties[13] = PropertiesKeys.RoomHealthRegeneration;
+        properties[12] = PropertiesKeys.RoomHealthRegeneration;
 
         PhotonNetwork.CreateRoom(roomName, new RoomOptions()
         {

@@ -117,6 +117,7 @@ public class bl_Lobby : bl_PhotonHelper, IConnectionCallbacks, ILobbyCallbacks, 
     private bool GamePerRounds = false;
     private bool AutoTeamSelection = false;
     private bool FriendlyFire = false;
+    private bool HealthRegen = true;
     private float alpha = 2.0f;
 
     private List<GameObject> CacheRoomList = new List<GameObject>();
@@ -433,12 +434,13 @@ public class bl_Lobby : bl_PhotonHelper, IConnectionCallbacks, ILobbyCallbacks, 
         roomOption[PropertiesKeys.CustomSceneName] = bl_GameData.Instance.AllScenes[scid].ShowName;
         roomOption[PropertiesKeys.RoomMaxKills] = RoomKills[killsRandom];
         roomOption[PropertiesKeys.RoomFriendlyFire] = false;
+        roomOption[PropertiesKeys.RoomHealthRegeneration] = true;
         roomOption[PropertiesKeys.MaxPing] = MaxPing[CurrentMaxPing];
         roomOption[PropertiesKeys.RoomPassworld] = string.Empty;
         roomOption[PropertiesKeys.WithBotsKey] = (GameModes[CurrentGameMode].m_GameMode == GameMode.FFA || GameModes[CurrentGameMode].m_GameMode == GameMode.TDM) ? true : false;
 #if BDGM || ELIM
         roomOption[PropertiesKeys.NumberOfRounds] = BDRounds[CurrentBDRound];
-         propsCount = 12;
+         propsCount = 13;
 #endif
 
         string[] properties = new string[propsCount];
@@ -456,6 +458,8 @@ public class bl_Lobby : bl_PhotonHelper, IConnectionCallbacks, ILobbyCallbacks, 
 #if BDGM || ELIM
         properties[11] = PropertiesKeys.NumberOfRounds;
 #endif
+
+        properties[13] = PropertiesKeys.RoomHealthRegeneration;
 
         PhotonNetwork.CreateRoom(roomName, new RoomOptions()
         {
@@ -479,7 +483,7 @@ public class bl_Lobby : bl_PhotonHelper, IConnectionCallbacks, ILobbyCallbacks, 
     public void CreateRoom()
     {
         if (Chat != null && Chat.isConnected()) { Chat.Disconnect(); }
-        int propsCount = 11;
+        int propsCount = 12;
         PhotonNetwork.NickName = playerName;
         //Save Room properties for load in room
         ExitGames.Client.Photon.Hashtable roomOption = new ExitGames.Client.Photon.Hashtable();
@@ -491,12 +495,13 @@ public class bl_Lobby : bl_PhotonHelper, IConnectionCallbacks, ILobbyCallbacks, 
         roomOption[PropertiesKeys.CustomSceneName] = bl_GameData.Instance.AllScenes[CurrentScene].ShowName;
         roomOption[PropertiesKeys.RoomMaxKills] = RoomKills[CurrentMaxKills];
         roomOption[PropertiesKeys.RoomFriendlyFire] = FriendlyFire;
+        roomOption[PropertiesKeys.RoomHealthRegeneration] = HealthRegen;
         roomOption[PropertiesKeys.MaxPing] = MaxPing[CurrentMaxPing];
         roomOption[PropertiesKeys.RoomPassworld] = PassWordField.text;
         roomOption[PropertiesKeys.WithBotsKey] = (GameModes[CurrentGameMode].m_GameMode == GameMode.FFA || GameModes[CurrentGameMode].m_GameMode == GameMode.TDM) ? WithBotsToggle.isOn : false;
 #if BDGM || ELIM
         roomOption[PropertiesKeys.NumberOfRounds] = BDRounds[CurrentBDRound];
-         propsCount = 12;
+         propsCount = 13;
 #endif
 
         string[] properties = new string[propsCount];
@@ -514,6 +519,7 @@ public class bl_Lobby : bl_PhotonHelper, IConnectionCallbacks, ILobbyCallbacks, 
 #if BDGM || ELIM
         properties[11] = PropertiesKeys.NumberOfRounds;
 #endif
+        properties[12] = PropertiesKeys.RoomHealthRegeneration;
 
         PhotonNetwork.CreateRoom(hostName, new RoomOptions()
         {
@@ -976,6 +982,7 @@ public class bl_Lobby : bl_PhotonHelper, IConnectionCallbacks, ILobbyCallbacks, 
 
     public void ChangeAutoTeamSelection(bool b) { AutoTeamSelection = b; }
     public void ChangeFriendlyFire(bool b) { FriendlyFire = b; }
+    public void ChangeHealthRegen(bool b) { HealthRegen = b; }
     public void ChangeGamePerRound(bool b) { GamePerRounds = b; }
     public void ChangeRoomName(string t) { hostName = t; }
     public void ChangeVolume(float v) { m_volume = v; }

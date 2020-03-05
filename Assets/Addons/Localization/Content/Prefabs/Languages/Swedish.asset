@@ -346,3 +346,5 @@ MonoBehaviour:
     Text: Generell
   - StringID: controls
     Text: Knotroller
+  - StringID: health_regen
+    Text: "H\xE4lsof\xF6rnyelse"

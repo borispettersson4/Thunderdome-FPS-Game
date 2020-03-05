@@ -12,6 +12,7 @@ public static class PropertiesKeys
     public const string RoomMaxKills = "RoomMaxKills";
     public const string TeamSelectionKey = "AutoTeam";
     public const string RoomFriendlyFire = "RoomFrienlyFire";
+    public const string RoomHealthRegeneration = "RoomHealthRegeneration";
     public const string Team1Score = "Team1Score";
     public const string Team2Score = "Team2Score";
     public const string MaxPing = "MaxPing";

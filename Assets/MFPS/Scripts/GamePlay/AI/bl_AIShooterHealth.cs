@@ -34,9 +34,12 @@ public class bl_AIShooterHealth : bl_PhotonHelper
         if (Agent.death)
             return;
 
+        var friendlyFire = (bool)PhotonNetwork.CurrentRoom.CustomProperties[PropertiesKeys.RoomFriendlyFire];
+
         if (GetGameMode == GameMode.TDM)
         {
-            if (team == Agent.AITeam) return;
+            if (team == Agent.AITeam && !friendlyFire)
+                return;
         }
 
         photonView.RPC("RpcDoDamage", RpcTarget.All, damage, wn, direction, vi, fromBot, ishead);

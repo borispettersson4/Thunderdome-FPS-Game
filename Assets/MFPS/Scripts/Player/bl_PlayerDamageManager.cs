@@ -11,6 +11,7 @@ using Hashtable = ExitGames.Client.Photon.Hashtable; //Replace default Hashtable
 using UnityEngine.UI;
 using Photon.Pun;
 using Photon.Realtime;
+using System.Linq;
 
 public class bl_PlayerDamageManager : bl_MonoBehaviour
 {
@@ -147,7 +148,7 @@ public class bl_PlayerDamageManager : bl_MonoBehaviour
             {
                 DamageUI();
             }else { DamageAlpha.alpha = 0; }
-            if (HealthRegeneration)
+            if (HealthRegeneration && (bool)PhotonNetwork.CurrentRoom.CustomProperties[PropertiesKeys.RoomHealthRegeneration])
             {
                 RegenerateHealth();
             }
@@ -167,6 +168,20 @@ public class bl_PlayerDamageManager : bl_MonoBehaviour
             }
             return;
         }
+
+        var friendlyFire = (bool)PhotonNetwork.CurrentRoom.CustomProperties[PropertiesKeys.RoomFriendlyFire];
+
+        if (GetGameMode == GameMode.TDM)
+        {
+            if(e.Cause == DamageCause.Bot)
+            {
+                var bot = bl_AIMananger.Instance.GetBot(e.From);
+                if (bot.AITeam == PhotonNetwork.LocalPlayer.GetPlayerTeam() && !friendlyFire) return;
+            }
+            else if(e.Actor != null && PhotonNetwork.LocalPlayer.NickName != e.Actor.NickName)
+                if (e.Actor.GetPlayerTeam() == PhotonNetwork.LocalPlayer.GetPlayerTeam() && !friendlyFire) return;
+        }
+
         photonView.RPC("SyncDamage", RpcTarget.AllBuffered, e.Damage, e.From, e.Cause, e.Direction, e.isHeadShot, e.GunID, PhotonNetwork.LocalPlayer);
     }
 
@@ -299,6 +314,11 @@ public class bl_PlayerDamageManager : bl_MonoBehaviour
         {
             if (m_LastShot == LocalName)
             {
+                if (GetGameMode == GameMode.TDM)
+                {                
+                    if (photonView.Owner.GetPlayerTeam() == PhotonNetwork.LocalPlayer.GetPlayerTeam()) return;
+                }
+
                 AddKill(isHeat, weapon, gunID);
             }
             if (!isOneTeamMode)
@@ -392,20 +412,23 @@ public class bl_PlayerDamageManager : bl_MonoBehaviour
 #endif
         }
 
-        //Add a new kill and update information
-        PhotonNetwork.LocalPlayer.PostKill(1);//Send a new kill
-        //Add xp for score and update
-        int score = (m_heat) ? GameData.ScoreReward.ScorePerKill + GameData.ScoreReward.ScorePerHeadShot : GameData.ScoreReward.ScorePerKill;
+        if (PhotonNetwork.LocalPlayer.isTeamMate())
+        {
+            //Add a new kill and update information
+            PhotonNetwork.LocalPlayer.PostKill(1);//Send a new kill
+                                                  //Add xp for score and update
+            int score = (m_heat) ? GameData.ScoreReward.ScorePerKill + GameData.ScoreReward.ScorePerHeadShot : GameData.ScoreReward.ScorePerKill;
 
-        //show an local notification for the kill
-        bl_KillFeed.LocalKillInfo localKillInfo = new bl_KillFeed.LocalKillInfo();
-        localKillInfo.Killed = gameObject.name;
-        localKillInfo.HeadShot = m_heat;
-        localKillInfo.Weapon = m_weapon;
-        bl_EventHandler.OnKillEvent(localKillInfo);
+            //show an local notification for the kill
+            bl_KillFeed.LocalKillInfo localKillInfo = new bl_KillFeed.LocalKillInfo();
+            localKillInfo.Killed = gameObject.name;
+            localKillInfo.HeadShot = m_heat;
+            localKillInfo.Weapon = m_weapon;
+            bl_EventHandler.OnKillEvent(localKillInfo);
 
-        //Send to update score to player
-        PhotonNetwork.LocalPlayer.PostScore(score);
+            //Send to update score to player
+            PhotonNetwork.LocalPlayer.PostScore(score);
+        }
 
         //TDM only if the score is updated
         if (GetGameMode == GameMode.TDM)

@@ -6,6 +6,7 @@
 // use "bl_BodyPartManager.cs" to automatically configure                            
 //                                 Lovatto Studio
 ///////////////////////////////////////////////////////////////////////////////////////
+using Photon.Pun;
 using UnityEngine;
 
 public class bl_BodyPart : MonoBehaviour {
@@ -25,6 +26,7 @@ public class bl_BodyPart : MonoBehaviour {
     /// </summary>
     public void GetDamage(float damage, string t_from, DamageCause cause, Vector3 direction, int weapon_ID = 0)
     {
+
         float m_TotalDamage = damage + multiplier;
 
         DamageData e = new DamageData();

@@ -346,3 +346,5 @@ MonoBehaviour:
     Text: General
   - StringID: controls
     Text: Controls
+  - StringID: health_regen
+    Text: Health Regeneration

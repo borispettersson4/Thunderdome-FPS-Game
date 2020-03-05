@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GameData
   m_EditorClassIdentifier: 
   UseLobbyChat: 1
-  UseVoiceChat: 1
+  UseVoiceChat: 0
   BulletTracer: 1
   DropGunOnDeath: 1
   SelfGrenadeDamage: 1

@@ -353,6 +353,18 @@ public class bl_AIMananger : bl_PhotonHelper
         return null;
     }
 
+    public bl_AIShooterAgent GetBot(string name)
+    {
+        foreach (bl_AIShooterAgent agent in AllBots)
+        {
+            if (agent.AIName == name)
+            {
+                return agent;
+            }
+        }
+        return null;
+    }
+
     public void OnPhotonPlayerPropertiesChanged(Player player, Hashtable changedProps)
     {
         if (isOneTeamMode || !BotsActive)

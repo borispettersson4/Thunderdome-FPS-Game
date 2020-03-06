@@ -37,12 +37,15 @@ public class bl_KeyOptionsUI : MonoBehaviour
         bool primary = true;
         for(int i = 0; i < keys.Count; i++)
         {
-            GameObject kui = Instantiate(KeyOptionPrefab) as GameObject;
-            kui.GetComponent<bl_KeyInfoUI>().Init(keys[i], this, primary);
-            kui.transform.SetParent(KeyOptionPanel, false);
-            kui.gameObject.name = keys[i].Function;
-            cacheKeysInfoUI.Add(kui.GetComponent<bl_KeyInfoUI>());
-            primary = !primary;
+            if (!String.IsNullOrEmpty(keys[i].Function))
+            {
+                GameObject kui = Instantiate(KeyOptionPrefab) as GameObject;
+                kui.GetComponent<bl_KeyInfoUI>().Init(keys[i], this, primary);
+                kui.transform.SetParent(KeyOptionPanel, false);
+                kui.gameObject.name = keys[i].Function;
+                cacheKeysInfoUI.Add(kui.GetComponent<bl_KeyInfoUI>());
+                primary = !primary;
+            }
         }
     }
 
@@ -102,7 +105,7 @@ public class bl_KeyOptionsUI : MonoBehaviour
             {
                 if (bl_Input.Instance.isAxisUsed(GamePadButtonsNames.TriggerAxis[i]))
                 {
-                    WaitKeyText.text = string.Format("THIS BUTTON IS ALREADY USE, \n PLEASE PRESS ANOTHER KEY FOR REPLACE <b>{0}</b>", WaitFunctionKey.Description.ToUpper());
+                    WaitKeyText.text = string.Format("THIS BUTTON IS ALREADY USED, \n PLEASE USE ANOTHER KEY FOR REPLACE <b>{0}</b>", WaitFunctionKey.Description.ToUpper());
                 }
                 else
                 {

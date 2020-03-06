@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -15,35 +16,35 @@ MonoBehaviour:
     AllKeys:
     - Function: Up
       Key: 119
-      Description: Walk Up
+      Description: Move Up
       Axis: 
       isAxis: 0
       AxisButton: 
       AxisValue: 0
     - Function: Down
       Key: 115
-      Description: Walk Down
+      Description: Move Down
       Axis: 
       isAxis: 0
       AxisButton: 
       AxisValue: 0
     - Function: Left
       Key: 97
-      Description: Walk Left
+      Description: Move Left
       Axis: 
       isAxis: 0
       AxisButton: 
       AxisValue: 0
     - Function: Right
       Key: 100
-      Description: Walk Right
+      Description: Move Right
       Axis: 
       isAxis: 0
       AxisButton: 
       AxisValue: 0
     - Function: Run
       Key: 304
-      Description: Run
+      Description: Sprint
       Axis: 
       isAxis: 0
       AxisButton: 
@@ -62,14 +63,14 @@ MonoBehaviour:
       isAxis: 0
       AxisButton: 
       AxisValue: 0
-    - Function: AmmoKit
+    - Function: 
       Key: 106
       Description: Throw Ammo
       Axis: 
       isAxis: 0
       AxisButton: 
       AxisValue: 0
-    - Function: Medkit
+    - Function: 
       Key: 104
       Description: Throw Medkit
       Axis: 
@@ -78,34 +79,34 @@ MonoBehaviour:
       AxisValue: 0
     - Function: Weapon1
       Key: 49
-      Description: Primary Weapon
+      Description: Switch to Primary Weapon
       Axis: 
       isAxis: 0
       AxisButton: 
       AxisValue: 0
     - Function: Weapon2
       Key: 50
-      Description: Secundary Weapon
+      Description: Switch to Secondary Weapon
       Axis: 
       isAxis: 0
       AxisButton: 
       AxisValue: 0
     - Function: Weapon3
       Key: 51
-      Description: Knife
+      Description: Switch to Knife
       Axis: 
       isAxis: 0
       AxisButton: 
       AxisValue: 0
     - Function: Weapon4
       Key: 52
-      Description: Grenade
+      Description: Switch to Grenade
       Axis: 
       isAxis: 0
       AxisButton: 
       AxisValue: 0
-    - Function: SuperJump
-      Key: 32
+    - Function: 
+      Key: 0
       Description: Super Jump
       Axis: 
       isAxis: 0
@@ -113,7 +114,7 @@ MonoBehaviour:
       AxisValue: 0
     - Function: FastKnife
       Key: 118
-      Description: Fast fire of knife
+      Description: Quick Knife
       Axis: 
       isAxis: 0
       AxisButton: 
